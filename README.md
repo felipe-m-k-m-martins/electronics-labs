@@ -2,6 +2,8 @@
 
 Analog and power electronics lab projects.
 
+![Single-phase full-bridge rectifier: SolidWorks model and built enclosure](single-phase-full-bridge-rectifier/images/enclosure.jpg)
+
 | Project | Description | Folder |
 |---|---|---|
 | Single-phase full-bridge rectifier | Mains power supply from 127 V AC to 12 to 18 V DC, with capacitive filter, PSIM simulation and bench measurements | [single-phase-full-bridge-rectifier](single-phase-full-bridge-rectifier/) |
