@@ -4,7 +4,7 @@ Analog and power electronics lab projects.
 
 | Project | Description | Folder |
 |---|---|---|
-| Single-phase full-bridge rectifier | Rectifier from a 127 V AC input to a 12 to 18 V DC output | [single-phase-full-bridge-rectifier](single-phase-full-bridge-rectifier/) |
+| Single-phase full-bridge rectifier | Mains power supply from 127 V AC to 12 to 18 V DC, with capacitive filter, PSIM simulation and bench measurements | [single-phase-full-bridge-rectifier](single-phase-full-bridge-rectifier/) |
 
 ## Author
 
