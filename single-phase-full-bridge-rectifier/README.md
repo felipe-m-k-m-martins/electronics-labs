@@ -27,7 +27,7 @@ The goal was to design a small mains power supply with the classic single-phase 
 | Diodes | 1N4007 (x4) | Average and peak current from the simulation |
 | Filter capacitor | 3300 µF, 25 V | C = P / (f (Vmax² − Vmin²)) with Vmax = 15.57 V and Vmin = 0.88 Vmax = 13.70 V, giving 3050 µF; ripple current checked against the datasheet |
 | Fuse | 2 A | RMS current in the secondary |
-| Inrush limiter | NTC thermistor 10D-9 (10 Ω) | Simulated inrush peak of about 50 A at start-up |
+| Inrush limiter | NTC thermistor 10D-9 (10 Ω) | Simulated inrush peak of about 46 A at start-up |
 
 The steady state and the start-up transient were simulated in PSIM before building.
 
@@ -48,7 +48,7 @@ Measured on a Tektronix TDS1001B oscilloscope:
 | With a 22.5 Ω load | 12.0 V | 11.4 V | 12.6 V |
 | Without load | 16.8 V | 16.6 V | 17.0 V |
 
-With the 22.5 Ω load the output delivers 6.5 W with 1.2 V peak to peak of ripple, 10 % of the average voltage, inside the 12 % limit.
+With the 22.5 Ω load the output delivers about 6.4 W (12.0² / 22.5) with 1.2 V peak to peak of ripple, 10 % of the average voltage, inside the 12 % limit.
 
 ![Oscilloscope: secondary voltage and current, output with load, output without load](images/oscilloscope.jpg)
 
