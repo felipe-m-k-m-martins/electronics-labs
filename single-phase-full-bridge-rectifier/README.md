@@ -15,7 +15,7 @@ The goal was to design a small mains power supply with the classic single-phase 
 | Input | 127 V AC, 60 Hz |
 | Average output voltage | about 15 V |
 | Average output power | 10 W |
-| Maximum output ripple | 12 % |
+| Maximum output ripple | 12% |
 
 ![Circuit and specification](images/slide-specification.png)
 
@@ -48,7 +48,7 @@ Measured on a Tektronix TDS1001B oscilloscope:
 | With a 22.5 Ω load | 12.0 V | 11.4 V | 12.6 V |
 | Without load | 16.8 V | 16.6 V | 17.0 V |
 
-With the 22.5 Ω load the output delivers about 6.4 W (12.0² / 22.5) with 1.2 V peak to peak of ripple, 10 % of the average voltage, inside the 12 % limit.
+With the 22.5 Ω load the output delivers about 6.4 W (12.0² / 22.5) with 1.2 V peak to peak of ripple, 10% of the average voltage, inside the 12% limit.
 
 ![Oscilloscope: secondary voltage and current, output with load, output without load](images/oscilloscope.jpg)
 
