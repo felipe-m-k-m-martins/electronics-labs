@@ -54,4 +54,4 @@ With the 22.5 Ω load the output delivers about 6.4 W (12.0² / 22.5) with 1.2 V
 
 ## Credits
 
-Project for the Power Electronics A course at UTFPR (2025), with the participation of Gabriela Bosco Azevedo.
+Project for the Power Electronics A course at UTFPR (second semester of 2025), with the participation of Gabriela Bosco Azevedo.
